@@ -1,0 +1,69 @@
+[2011-06-13 14:42:08,087][INFO ] Using BusyTimeout=50000 for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using WaitBasedOnHourGlass=true for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using WorkSessionLocation=. for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using UIAutomationZeroWindowBugTimeout=5000 for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using PopupTimeout=5000 for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using TooltipWaitTime=0 for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using SuggestionListTimeout=3000 for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using DefaultDateFormat=Month,Day,Year for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using DragStepCount=1 for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using InProc=False for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using ComboBoxItemsPopulatedWithoutDropDownOpen=True for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using RawElementBasedSearch=False for White/Core
+[2011-06-13 14:42:08,132][INFO ] Using MaxElementSearchDepth=10 for White/Core
+[2011-06-13 14:42:08,426][INFO ] Using TableVerticalScrollBar=Vertical Scroll Bar for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using TableHorizontalScrollBar=Horizontal Scroll Bar for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using TableColumn=Row  for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using TableTopLeftHeaderCell=Top Left Header Cell for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using TableCellNullValue=(null) for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using TableHeader=Top Row for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using HorizontalScrollBar=Horizontal ScrollBar for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using VerticalScrollBar=Vertical ScrollBar for White/UIItemId
+[2011-06-13 14:42:08,426][INFO ] Using TableCellPrefix= Row  for White/UIItemId
+[2011-06-13 14:42:08,483][WARN ] Window with title: Horizon whose dimensions are: -8,-8,1296,1000, is not contained completely on the desktop 0,0,1280,1024. 
+UI actions on window needing mouse would not work in area not falling under the desktop
+[2011-06-13 15:19:05,212][ERROR] Thread exception: 
+System.Windows.Automation.ElementNotAvailableException: Unrecognized error.
+   at MS.Internal.Automation.UiaCoreApi.CheckError(Int32 hr)
+   at MS.Internal.Automation.UiaCoreApi.UiaAddEvent(SafeNodeHandle hnode, Int32 eventId, UiaEventCallback callback, TreeScope scope, Int32[] properties, UiaCacheRequest request)
+   at MS.Internal.Automation.ClientEventManager.AddListener(AutomationElement rawEl, Delegate eventCallback, EventListener l)
+   at System.Windows.Automation.Automation.AddAutomationEventHandler(AutomationEvent eventId, AutomationElement element, TreeScope scope, AutomationEventHandler eventHandler)
+   at White.Core.UIItems.WindowItems.Window.HookEvents(UIItemEventListener eventListener) in c:\white\Core\UIItems\WindowItems\Window.cs:line 274
+   at Recorder.Recording.RecorderVisitor.Accept(UIItem uiItem) in c:\white\Recorder\Recording\RecorderVisitor.cs:line 29
+   at White.Core.UIItems.WindowItems.Window.Visit(WindowControlVisitor windowControlVisitor) in c:\white\Core\UIItems\WindowItems\Window.cs:line 227
+   at Recorder.Domain.WhiteRecorder.StartRecording(Window window, UserEventListener eventListener) in c:\white\Recorder\Domain\WhiteRecorder.cs:line 46
+   at Recorder.DashBoard.StartMethodRecord(Object sender, EventArgs e) in c:\white\Recorder\DashBoard.cs:line 65
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+[2011-06-13 15:19:22,600][INFO ] Using BusyTimeout=50000 for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using WaitBasedOnHourGlass=true for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using WorkSessionLocation=. for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using UIAutomationZeroWindowBugTimeout=5000 for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using PopupTimeout=5000 for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using TooltipWaitTime=0 for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using SuggestionListTimeout=3000 for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using DefaultDateFormat=Month,Day,Year for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using DragStepCount=1 for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using InProc=False for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using ComboBoxItemsPopulatedWithoutDropDownOpen=True for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using RawElementBasedSearch=False for White/Core
+[2011-06-13 15:19:22,609][INFO ] Using MaxElementSearchDepth=10 for White/Core
+[2011-06-13 15:19:22,664][INFO ] Using TableVerticalScrollBar=Vertical Scroll Bar for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using TableHorizontalScrollBar=Horizontal Scroll Bar for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using TableColumn=Row  for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using TableTopLeftHeaderCell=Top Left Header Cell for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using TableCellNullValue=(null) for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using TableHeader=Top Row for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using HorizontalScrollBar=Horizontal ScrollBar for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using VerticalScrollBar=Vertical ScrollBar for White/UIItemId
+[2011-06-13 15:19:22,664][INFO ] Using TableCellPrefix= Row  for White/UIItemId
+[2011-06-13 15:19:22,689][WARN ] Window with title: Horizon whose dimensions are: -8,-8,1296,1000, is not contained completely on the desktop 0,0,1280,1024. 
+UI actions on window needing mouse would not work in area not falling under the desktop
